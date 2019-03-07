@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl":"https://korepa.github.io/",
-    "name": "Knyazev Ivan",
+    "name": "Ivan Knyazev",
     "role": "Frontend Developer"
 }
 export default resumeData;

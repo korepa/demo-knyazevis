@@ -10,17 +10,14 @@ export default class About extends Component {
                         </div>
                         <div class="nine columns main-col">
                             <h2>About Me</h2>
-                            <p>Sed ut perspiciatis</p>
+                            <p>Frontend developer, full-stack .net developer</p>
                             <div class="row">
                                 <div class="columns contact-details">
                                     <h2>Contact Details</h2>
                                     <p class="address">
-                                        <span>Jonathan Doe</span><br />
-                                        <span>1600 Amphitheatre Parkway<br />
-                                            Mountain View, CA 94043 US
-                                        </span><br />
-                                        <span>(123)456-7890</span><br />
-                                        <span>anyone@website.com</span>
+                                        <span>Moscow city</span><br />
+                                        <span>+7(916)489-86-02</span><br />
+                                        <span>to.knyazev@gmail.com</span>
                                     </p>
                                 </div>
                                 <div class="columns download">
