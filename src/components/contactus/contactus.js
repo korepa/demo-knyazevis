@@ -9,10 +9,8 @@ export default class ContactUs extends Component {
               <h1><span>Get In Touch.</span></h1>
             </div>
             <div className="ten columns">
-              <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-            </p>
+              <p className="lead">Also you can write me a message.</p>
+              <p className="lead">Fill the form below.</p>
             </div>
           </div>
           <div className="row">
@@ -22,19 +20,19 @@ export default class ContactUs extends Component {
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">Name <span className="required">*</span></label>
-                    <input type="text" defaultValue size={35} id="contactName" name="contactName" />
+                    <input type="text" defaultValue={""} size={35} id="contactName" name="contactName" placeholder="Enter name..."/>
                   </div>
                   <div>
                     <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                    <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
+                    <input type="text" defaultValue={""} size={35} id="contactEmail" name="contactEmail" placeholder="Enter email..."/>
                   </div>
                   <div>
                     <label htmlFor="contactSubject">Subject</label>
-                    <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
+                    <input type="text" defaultValue={""} size={35} id="contactSubject" name="contactSubject" placeholder="Enter subject..."/>
                   </div>
                   <div>
                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                    <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+                    <textarea cols={50} rows={15} id="contactMessage" name="contactMessage"  placeholder="Enter message..." defaultValue={""} />
                   </div>
                   <div>
                     <button className="submit">Submit</button>
@@ -43,10 +41,8 @@ export default class ContactUs extends Component {
                     </span>
                   </div>
                 </fieldset>
-              </form> {/* Form End */}
-              {/* contact-warning */}
+              </form>
               <div id="message-warning"> Error boy</div>
-              {/* contact-success */}
               <div id="message-success">
                 <i className="fa fa-check" />Your message was sent, thank you!<br />
               </div>
@@ -55,13 +51,12 @@ export default class ContactUs extends Component {
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
                 <p className="address">
-                  Jonathan Doe<br />
-                  1600 Amphitheatre Parkway <br />
-                  Mountain View, CA 94043 US<br />
-                  <span>(123) 456-7890</span>
+                  Ivan Knyazev<br />
+                  Moscow <br />
+                  <span>+7(916)489-86-02</span>
                 </p>
               </div>
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -81,7 +76,7 @@ export default class ContactUs extends Component {
                     <b><a href="#">3 Days Ago</a></b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </div>
         </section>

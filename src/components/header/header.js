@@ -27,13 +27,11 @@ export default class Header extends Component {
                 and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
               <hr />
               <ul className="social">
-                <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-                <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                <li><a href="#"><i className="fa fa-instagram" /></a></li>
-                <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-                <li><a href="#"><i className="fa fa-skype" /></a></li>
+                <li><a href="https://www.facebook.com/iknyazev"><i className="fa fa-facebook" /></a></li>
+                <li><a href="https://twitter.com/korepa"><i className="fa fa-twitter" /></a></li>
+                <li><a href="https://www.linkedin.com/in/knyazevivan/"><i className="fa fa-linkedin" /></a></li>
+                <li><a href="https://www.instagram.com/korepa"><i className="fa fa-instagram" /></a></li>
+                <li><a href="skype:to.knyazev?call"><i className="fa fa-skype" /></a></li>
               </ul>
             </div>
           </div>
