@@ -1,4 +1,4 @@
-This is my portfolio project
+This is my resume project
 
 Scripts available:
 
