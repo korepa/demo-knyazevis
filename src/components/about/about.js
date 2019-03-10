@@ -10,14 +10,25 @@ export default class About extends Component {
                         </div>
                         <div class="nine columns main-col">
                             <h2>About Me</h2>
-                            <p>Frontend developer, full-stack .net developer</p>
+                            <p>
+                                Frontend developer, full-stack .net developer
+                                <br/>Backend experience > 8 years
+                                <br/>Frontend experience > 2 years
+                                <br/>My aims:
+                                <br/>I try to constantly evolve in software engineering. 
+                                    I put the focus on the frontend and UX/UI, I think that they have a future. 
+                                    At the same time, I appreciate the role of backend technologies, because business 
+                                    data must be stored efficiently and safely. I also think that it is necessary to be 
+                                    a professional also in related areas: infrastructure and autotesting (qa).
+                            </p>
                             <div class="row">
                                 <div class="columns contact-details">
                                     <h2>Contact Details</h2>
                                     <p class="address">
-                                        <span>Moscow city</span><br />
+                                        <span>Russia, Moscow city</span><br />
                                         <span>+7(916)489-86-02</span><br />
-                                        <span>to.knyazev@gmail.com</span>
+                                        <span>to.knyazev@gmail.com</span><br />
+                                        <span>Social networks</span>
                                     </p>
                                 </div>
                                 <div class="columns download">

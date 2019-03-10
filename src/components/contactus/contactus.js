@@ -15,6 +15,11 @@ export default class ContactUs extends Component {
           </div>
           <div className="row">
             <div className="eight columns">
+              <form action method="post" action="http://formspree.io/to.knyazev@gmail.com">
+                <input type="email" name="_replyto"/>
+                <textarea name="body"></textarea>
+                <input type="submit" value="Send"/>
+              </form>
               {/* form */}
               <form action method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -56,27 +61,6 @@ export default class ContactUs extends Component {
                   <span>+7(916)489-86-02</span>
                 </p>
               </div>
-              {/* <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
-                <ul id="twitter">
-                  <li>
-                    <span>
-                      This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                      Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b><a href="#">2 Days Ago</a></b>
-                  </li>
-                  <li>
-                    <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                      eaque ipsa quae ab illo inventore veritatis et quasi
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b><a href="#">3 Days Ago</a></b>
-                  </li>
-                </ul>
-              </div> */}
             </aside>
           </div>
         </section>
