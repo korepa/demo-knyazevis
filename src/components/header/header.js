@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let personalData = this.props.personalData;
 
     return (
       <React.Fragment>
@@ -20,15 +20,15 @@ export default class Header extends Component {
           </nav>
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">{resumeData.name}</h1>
-              <h3>I am a {resumeData.role}.{resumeData.roleDescription}</h3>
-              <h3>I`m working in <span>Alfa-Bank</span> and make a full-stack development of corporate business</h3>
+              <h1 className="responsive-headline">{personalData.name}</h1>
+              <h3>I am a {personalData.role}.{personalData.roleDescription}</h3>
+              <h3>I`m working in <span>Alfa-Bank</span> and make a full-stack dev of corporate business</h3>
+              <h3>I use <span>.NET Core</span> backend and <span>ReactJS</span> frontend</h3>
               <h3>Let's <a className="smoothscroll" href="#about"> start scrolling </a>
                 and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
               <hr />
               <ul className="social">
                 <li><a href="https://www.facebook.com/iknyazev"><i className="fa fa-facebook" /></a></li>
-                <li><a href="https://twitter.com/korepa"><i className="fa fa-twitter" /></a></li>
                 <li><a href="https://www.linkedin.com/in/knyazevivan/"><i className="fa fa-linkedin" /></a></li>
                 <li><a href="https://www.instagram.com/korepa"><i className="fa fa-instagram" /></a></li>
                 <li><a href="skype:to.knyazev?call"><i className="fa fa-skype" /></a></li>
