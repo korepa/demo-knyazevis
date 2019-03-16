@@ -107,12 +107,18 @@ export default class Resume extends Component {
                             </p>
                             <div className="bars">
                                 <ul className="skills">
-                                    <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                                    <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                                    <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
-                                    <li><span className="bar-expand css" /><em>CSS</em></li>
-                                    <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                                    <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+                                    <li><span className="bar-expand eightyfivepercent" /><em>C#</em></li>
+                                    <li><span className="bar-expand eightyfivepercent" /><em>Entity Framework</em></li>
+                                    <li><span className="bar-expand seventyfivepercent" /><em>SQL</em></li>
+                                    <li><span className="bar-expand sixtyfivepercent" /><em>NOSQL (MONGO)</em></li>
+                                    <li><span className="bar-expand sixtyfivepercent" /><em>React</em></li>
+                                    <li><span className="bar-expand sixtyfivepercent" /><em>Typescript</em></li>
+                                    <li><span className="bar-expand sixtyfivepercent" /><em>JavaScript</em></li>
+                                    <li><span className="bar-expand seventyfivepercent" /><em>HTML</em></li>
+                                    <li><span className="bar-expand seventyfivepercent" /><em>CSS</em></li>
+                                    <li><span className="bar-expand sixtyfivepercent" /><em>Rest</em></li>
+                                    <li><span className="bar-expand sixtyfivepercent" /><em>Soap</em></li>
+                                    <li><span className="bar-expand fiftypercent" /><em>Devexpress</em></li>
                                 </ul>
                             </div>{/* end skill-bars */}
                         </div> {/* main-col end */}
